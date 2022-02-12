@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto+Slab");
+.taskList {
+  width: 100%;
+}
+
+.task {
+  width: auto;
+  background-color: #c1c1c1;
+  color: #212121;
+  margin: 0.2rem;
+  display: grid;
+  grid-template-columns: 2rem auto 2rem;
+  align-items: center;
+  padding: 0.4rem;
+}
+.task .taskremove {
+  font-size: 14pt;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  padding: 0;
+}
+.task .taskname {
+  text-align: start;
+  padding: 0.25rem 0.5rem;
+}
+.task .checkbox-container {
+  top: -0.6rem;
+}
+
+.todocontainer {
+  background-color: #313131;
+  color: #f0f0f0;
+  box-shadow: 0 0 0.5rem 0.5rem #313131;
+  margin: 1rem auto;
+  max-width: 30rem;
+  min-height: 40rem;
+  padding: 0.5rem;
+  display: grid;
+  text-align: center;
+  grid-template-rows: 5rem auto minmax(0, max-content) minmax(0, max-content);
+}
+.todocontainer .todobottom {
+  display: flex;
+  justify-content: space-between;
+}
+.todocontainer .todobottom #remainingtasks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todocontainer .todobottom #remainingtasks p {
+  margin: 0.25rem 0;
+  height: fit-content;
+}
+.todocontainer .todobottom .buttons {
+  margin: 0.5rem 0;
+}
+.todocontainer .todofooter {
+  display: flex;
+}
+.todocontainer .todofooter input {
+  font-size: 14pt;
+}
+.todocontainer .todofooter button {
+  padding: 0;
+  width: 3rem;
+  height: 3rem;
+}
+.todocontainer button {
+  font-size: 12pt;
+}
+
+/*# sourceMappingURL=todo.css.map */

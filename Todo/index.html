@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>TODO LIST | WDD 330 Portfolio</title>
+  <meta name="description" content="WDD 330 Portfolio">
+  <meta name="author" content="Chase Duggan">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/todo.css">
+  <script src="https://kit.fontawesome.com/8a516c8812.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+
+  </header>
+  <nav aria-label="primary" id="primary-nav" class="primary-nav">
+    <ul id="links"></ul>
+  </nav>
+  <nav aria-label="secondary" id="secondary-nav" class="secondary-nav">
+  </nav>
+  <main>
+    <section>
+      <div class="todocontainer">
+        <h3>Todos</h3>
+        <div id="taskList"></div>
+        <div class="todobottom">
+            <div id="remainingtasks"></div>
+            <div class="buttons">
+                <button id="filter-all">All</button>
+                <button id="filter-active">Active</button>
+                <button id="filter-completed">Completed</button>
+            </div>
+        </div>
+        <div class="todofooter">
+            <input type="text" name="newtask" id="newtask" placeholder="Task Name" autofocus>
+            <button id="add-task"><i class="fas fa-plus"></i></button>    
+        </div>
+      </div>
+    </section>
+  </main>
+
+  </footer>
+  <script src="js/main.js" type="module"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>
