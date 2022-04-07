@@ -99,6 +99,7 @@ h2.city{
   margin-left: 8px;
 }
 
+
 .weather.loading {
   visibility: hidden;
   max-height: 20px;
