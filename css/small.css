@@ -1,0 +1,70 @@
+/* Chase Duggan*/
+/* CIT 230 */
+/* For Assignment Class Portal */
+
+
+*  { margin: 0; box-sizing: border-box; }
+
+body {
+    font-size: 1rem;
+    line-height: 3rem;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    
+}
+
+body a {
+    color: #f8c149;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    color: #ffffff;
+
+}
+
+h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.2rem;
+    text-align: left;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    color: black;
+}
+
+header, main, footer {
+    margin: 1.25rem auto;
+    padding: .5rem;
+    max-width: 700px;
+    box-shadow: 1px 5px #888888;
+}
+
+header, footer, footer a {
+    text-align: center;
+    background-color: #333cb9;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+ul li {
+    font-size: .8rem;
+}
+
+footer {
+    font-size: .8rem;
+    color: white;
+}
+
+#currentdate {color:#4b7;}
+
+
+#updated {
+    color: var(--ltblue);
+    font-size: .7em; 
+    margin:.5em;	
+  }
