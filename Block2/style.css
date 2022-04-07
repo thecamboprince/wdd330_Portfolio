@@ -79,7 +79,12 @@ h2.city{
 
 .wind{
   text-align: center;
+  margin-bottom: 5px;
 
+}
+
+.feelslike{
+  text-align: center;
 }
 
 .flex {
